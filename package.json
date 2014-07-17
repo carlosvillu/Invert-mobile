@@ -1,0 +1,25 @@
+{
+  "name": "inverter-web",
+  "version": "0.0.0",
+  "description": "Invert-mobile",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.6.1",
+    "serve": "^1.4.0",
+    "swig": "^1.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/carlosvillu/Invert-mobile"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlosvillu/Invert-mobile/issues"
+  },
+  "homepage": "https://github.com/carlosvillu/Invert-mobile"
+}
