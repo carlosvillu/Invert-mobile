@@ -32,13 +32,32 @@
             <div class="navbar">
               <div class="navbar-inner">
                 <div class="center">Invert Puzzle</div>
+                <div class="rigth">
+                  <a href="#" class="open-panel link">Help</a>
+                </div>
               </div>
             </div>
 
             <div class="page-content">
 
               <div class="content-block-title current-level">
-                <div class="currLevel">Current Level: <b>3</b></div>
+
+                <div class="row">
+
+                  <div class="col-60">
+                    <div class="currLevel">Current Level: <b>3</b></div>
+                  </div>
+
+                  <div class="col-40">
+                    <p class="buttons-row aboveGame">
+                      <a class="newgame button"><i class="icon ion-home"></i></a>
+                      <a class="reset button"><i class="icon ion-refresh"></i></a>
+                      <a class="instruct button"><i class="icon ion-information"></i></a>
+                    </p>
+                  </div>
+
+                </div>
+
               </div>
 
               <div class="content-block">
@@ -49,22 +68,11 @@
                 </div>
               </div>
 
-              <div class="content-block toolbar-game">
-                <div class="row">
-                  <div class="col-50">
-                    <p class="buttons-row aboveGame">
-                      <a class="newgame button"><i class="icon ion-plus-round"></i></a>
-                      <a class="reset button"><i class="icon ion-refresh"></i></a>
-                      <a class="instruct button"><i class="icon ion-information"></i></a>
-                    </p>
-                  </div>
-                  <div class="col-50 statistic">
-                    <div class="scoresContainer">
-                      <div class="best">Best Level: <b>3</b> (5 clicks)</div>
-                      <div class="score">Current Clicks: <b>5</b></div>
-                      <div class="total">Total Clicks: <b>5</b></div>
-                    </div>
-                  </div>
+              <div class="statistic">
+                <div class="scoresContainer">
+                  <div class="best">Best Level: <b>3</b> (5 clicks)</div>
+                  <div class="score">Current Clicks: <b>5</b></div>
+                  <div class="total">Total Clicks: <b>5</b></div>
                 </div>
               </div>
               

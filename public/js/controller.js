@@ -5,15 +5,21 @@ $(document).ready(function(){
 	var game = new Game();
 	game.beginGame();
 
-  var myApp = new Framework7();
+  var myApp = new Framework7({
+    modalTitle: "Invert Puzzle"
+  });
   var mainView = myApp.addView('.view-main');
 
 	$('.reset').click(function(){
-		$('#restartLevel').modal('show');
+    myApp.confirm('Start over?', function () {
+      game.onResetLevelClick();
+    });
 	});
 
 	$('.newgame').click(function(){
-		$('#newGame').modal('show');
+    myApp.confirm('Go back to Level 1?', function () {
+      game.onNewGameClick();
+    });
 	});
 
 	$('#resetLevelConfirm').click(function(){
@@ -21,7 +27,6 @@ $(document).ready(function(){
 	});
 
 	$('#newGameConfirm').click(function(){
-		game.onNewGameClick();
 	});
 
 	$('.instruct').click(function(){
