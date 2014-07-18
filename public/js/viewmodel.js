@@ -155,7 +155,7 @@ function Game() {
 	}
 
 	this.updateCounts = function() {
-		$(".currLevel").html("Current Level: <b>" + this.level + "</b>");
+		$(".content-block-title .currLevel").html("<h3>Current Level: <b>" + this.level + "</b></h3>");
 		$(".score").html("Current Clicks: <b>" + this.currentClicks +"</b>");
 		$(".best").html("Best Level: <b>" + this.bestLevel + "</b> (" + this.clicksForBest + " clicks)");
 		$(".total").html("Total Clicks: <b>" + this.totalClicks + "</b>");

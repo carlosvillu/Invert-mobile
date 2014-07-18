@@ -68,10 +68,23 @@ STYLING FOR GAME BOARD
 i.icon {
   font-size: 1.5em;
 }
+
+.content-block-title.current-level {
+  margin-top:0px;
+}
+.content-block.toolbar-game {
+  margin-top:-43px;
+}
+
+.statistic{
+  display: none;
+}
+
 .board {
-  position: absolute;
+  position: relative;
   background-color: #4D4D4D;
   border-radius: 4px;
+  padding: 1px 0px;
 }
 
 .gamerow:after{

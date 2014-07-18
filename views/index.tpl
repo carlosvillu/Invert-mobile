@@ -37,7 +37,19 @@
 
             <div class="page-content">
 
+              <div class="content-block-title current-level">
+                <div class="currLevel">Current Level: <b>3</b></div>
+              </div>
+
               <div class="content-block">
+                <div class="row no-gutter container">
+                  <div class="col-100">
+                    <div class="board"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="content-block toolbar-game">
                 <div class="row">
                   <div class="col-50">
                     <p class="buttons-row aboveGame">
@@ -46,9 +58,8 @@
                       <a class="instruct button"><i class="icon ion-information"></i></a>
                     </p>
                   </div>
-                  <div class="col-50">
+                  <div class="col-50 statistic">
                     <div class="scoresContainer">
-                      <div class="currLevel">Current Level: <b>3</b></div>
                       <div class="best">Best Level: <b>3</b> (5 clicks)</div>
                       <div class="score">Current Clicks: <b>5</b></div>
                       <div class="total">Total Clicks: <b>5</b></div>
@@ -57,13 +68,6 @@
                 </div>
               </div>
               
-              <div class="content-block">
-                <div class="row no-gutter container">
-                  <div class="col-100">
-                    <div class="board"></div>
-                  </div>
-                </div>
-              </div>
 
             </div>
           </div>
