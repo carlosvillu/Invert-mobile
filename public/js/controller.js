@@ -22,14 +22,11 @@ $(document).ready(function(){
     });
 	});
 
-	$('#resetLevelConfirm').click(function(){
-		game.onResetLevelClick();
-	});
-
-	$('#newGameConfirm').click(function(){
-	});
-
 	$('.instruct').click(function(){
-		$('#instructions').modal('show');
+    myApp.modal( {
+      title: 'Game Statistics:',
+      afterText: $( '.scoresContainer' ).html(),
+      buttons: [ {text: 'Ok', close: true} ]
+    } );
 	})
 });

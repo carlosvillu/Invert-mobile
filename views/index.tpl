@@ -33,7 +33,7 @@
               <div class="navbar-inner">
                 <div class="center">Invert Puzzle</div>
                 <div class="rigth">
-                  <a href="#" class="open-panel link">Help</a>
+                  <a href="#" data-popup=".popup-statistic" class="open-popup">Help</a>
                 </div>
               </div>
             </div>
@@ -68,15 +68,6 @@
                 </div>
               </div>
 
-              <div class="statistic">
-                <div class="scoresContainer">
-                  <div class="best">Best Level: <b>3</b> (5 clicks)</div>
-                  <div class="score">Current Clicks: <b>5</b></div>
-                  <div class="total">Total Clicks: <b>5</b></div>
-                </div>
-              </div>
-              
-
             </div>
           </div>
 
@@ -84,6 +75,26 @@
       </div>
 
     </div>
+
+    <div class="popup popup-statistic">
+      <div class="content-block-title">
+        <h1>Help</h1>
+      </div>
+      <div class="content-block">
+        <p>How to win: Make the board blue. <br>
+					How to play: Click a square to flip its color and the color of all tiles that share an edge with it.</p>
+        <p><a href="#" class="close-popup">Close</a></p>
+      </div>
+    </div>
+
+    <div class="statistics">
+      <div class="scoresContainer">
+        <div class="best">Best Level: <b>3</b> (5 clicks)</div>
+        <div class="score">Current Clicks: <b>5</b></div>
+        <div class="total">Total Clicks: <b>5</b></div>
+      </div>
+    </div>
+
     <!-- Path to Framework7 Library JS-->
     <script type="text/javascript" src="/components/Framework7/dist/js/framework7.min.js"></script>
     <!-- Path to your app js-->

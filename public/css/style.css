@@ -13,10 +13,10 @@ STYLING FOR AREA ABOVE GAME BOARD
 	margin: 0;
 }
 
-.scoresContainer {
+/*.scoresContainer {
 	float: right;
 	text-align: right;
-}
+}*/
 
 .score.best {
 	position: relative;
@@ -75,11 +75,7 @@ i.icon {
 .content-block.toolbar-game {
   margin-top:-43px;
 }
-
-.statistic{
-  display: none;
-}
-
+.statistics { display: none; }
 .board {
   position: relative;
   background-color: #4D4D4D;
