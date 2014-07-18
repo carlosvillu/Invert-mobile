@@ -83,6 +83,15 @@
       <div class="content-block">
         <p>How to win: Make the board blue. <br>
 					How to play: Click a square to flip its color and the color of all tiles that share an edge with it.</p>
+      </div>
+
+      <div class="content-block-title">
+        <h3>Acknowledgements</h3>
+      </div>
+      <div class="content-block">
+        <p>Special thanks to <a href="https://github.com/gorried">Daniel Gorrie</a> for his development and original idea. </br>
+          Do not hesitate to check out the original project. <a href="http://gorried.github.io/inverter/game.html">Inverter</a>
+        </p>
         <p><a href="#" class="close-popup">Close</a></p>
       </div>
     </div>
