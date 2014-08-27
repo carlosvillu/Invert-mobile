@@ -53,7 +53,7 @@ function styleHelper() {
 
 	this.getMargin = function(level) {
 		if (level <= 6) return 15;
-		if (level > 15) return 5;
+		if (level > 9) return 5;
 		return 20 - level;
 	}
 }
